@@ -1,12 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 function Home(){
     return(
-        <section className="home">
-            <div className="border">
-                <img className="avatar" alt="avatar" src="https://images.vexels.com/media/users/3/137684/isolated/preview/4205608f4b2ad81262e9328efbe9d2ab-geometric-cube-abstract-logo.png"/>
-            </div>
-        </section>
+        <Fragment>
+            <header className="header" data-aos="fade-down" data-aos-duration="1500">
+                <h1>Florescer JF</h1>
+                <p>Somos uma ONG com o propósito de cuidar de vítimas de abusos, baixa autoestima, depressão e ansiedade</p>
+            </header>
+            <section className="home" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="border">
+                    <img className="avatar" alt="avatar" src="../../images/logo.png"/>
+                </div>
+            </section>
+        </Fragment>
     )
 };
 

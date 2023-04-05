@@ -3,7 +3,7 @@ import React from "react";
 function Footer (){
     return(
         <footer className="footer">
-            <p>Desenvolvido por Fernando Carvalho</p>
+            <p>Copyright 2023 Florescer JF</p>
         </footer>
     )
 };

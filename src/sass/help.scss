@@ -1,0 +1,17 @@
+.help{
+    @extend .flex-central;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 1.6em;
+    }
+    p{
+        width: 90%;
+    }
+    h1, p{
+        margin: 10px;
+    }
+    a{
+        margin: 10px;
+    }
+}

@@ -1,6 +1,8 @@
 .home{
     @extend .flex-central;
-    min-width: 100%;
+    flex-direction: column;
+    width: 80%;
+    height: 50vh;
     .border{
         border-radius: 100%;
         background-color: var(--secondary-color);
@@ -8,12 +10,11 @@
         animation: border 5s ease-in-out infinite;
         .avatar{
             border-radius: 100%;
-            padding: 4px;
-            height: 15rem;
-            width: 15rem;
+            padding: 8px;
+            height: 12.5rem;
+            width: 12.5rem;
             object-fit: cover;
-            background-color: var(--terciary-color);
-            
+            background-color: var(--terciary-color);            
         }
     }
 }

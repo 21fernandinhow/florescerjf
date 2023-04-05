@@ -1,0 +1,23 @@
+.donate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    h1{
+        font-size: 1.6em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    h1, h2, p{
+        margin: 10px;
+    }
+    .pix{
+        padding: 8px;
+        border: 2px dashed var(--contrast-color);
+    }
+    .btn-work{
+        @extend .btn-outline;
+    }
+}
