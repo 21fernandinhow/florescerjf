@@ -179,8 +179,11 @@ body {
   .content-section .content-container {
     padding: 10px;
   }
-  .menu-item {
-    margin: 4px;
+  .menu {
+    margin: 5px;
+  }
+  .menu .menu-item {
+    margin: 5px;
   }
   p {
     font-size: 0.9em !important;
