@@ -1,3 +1,18 @@
+.header{
+    .icons{
+        @extend .flex-central;
+        margin-top: 15px;
+        .icon{
+            max-width: 25px;
+            margin: 4px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+
 .home{
     @extend .flex-central;
     flex-direction: column;

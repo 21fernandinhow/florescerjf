@@ -1,3 +1,15 @@
+.header .icons {
+  margin-top: 15px;
+}
+.header .icons .icon {
+  max-width: 25px;
+  margin: 4px;
+  opacity: 0.8;
+}
+.header .icons .icon:hover {
+  opacity: 1;
+}
+
 .home {
   flex-direction: column;
   width: 80%;
@@ -90,7 +102,7 @@
   --contrast-color: #fff;
 }
 
-.flex-central, .menu, .content-section, .home, .home .border, .help, .themes {
+.flex-central, .menu, .content-section, .header .icons, .home, .home .border, .help, .themes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +157,7 @@ body {
 }
 .content-section .content-container {
   background-color: var(--primary-color);
-  border-radius: 40px;
+  border-radius: 60px;
   padding: 20px;
   max-width: 600px;
   min-height: 100%;
