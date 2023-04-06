@@ -8,25 +8,25 @@ function Home(){
                 <p>Somos uma ONG com o propósito de cuidar de vítimas de abusos, baixa autoestima, depressão e ansiedade</p>
                 <div className="icons">
                     <a href="https://www.instagram.com/florescerjf/" target="_blank" rel="noopener noreferrer">
-                        <img src="../../images/instagram.png" className="icon" alt="instagram"></img>
+                        <img src="../../images/instagram.webp" className="icon" alt="instagram"></img>
                     </a>
                     <a href="https://twitter.com/florescerjf" target="_blank" rel="noopener noreferrer">
-                        <img src="../../images/twitter.png" className="icon" alt="twitter"></img>
+                        <img src="../../images/twitter.webp" className="icon" alt="twitter"></img>
                     </a>
                     <a href="mailto:projetoflorescerjf@outlook.com" target="_blank" rel="noopener noreferrer">
-                        <img src="../../images/mail.png" className="icon" alt="email"></img>
+                        <img src="../../images/mail.webp" className="icon" alt="email"></img>
                     </a>
                     <a href="https://open.spotify.com/show/49IBykwev8njUWTs10Crxi?si=DjFDUYwBR_2xPM_fKB6KJg&utm_source=copy-link&nd=1/" target="_blank" rel="noopener noreferrer">
-                        <img src="../../images/spotify.png" className="icon" alt="spotify"></img>
+                        <img src="../../images/spotify.webp" className="icon" alt="spotify"></img>
                     </a>
                     <a href="https://www.tiktok.com/@florescerjf" target="_blank" rel="noopener noreferrer">
-                        <img src="../../images/tiktok.png" className="icon" alt="tiktok"></img>
+                        <img src="../../images/tiktok.webp" className="icon" alt="tiktok"></img>
                     </a>
                 </div>
             </header>
             <section className="home" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="border">
-                    <img className="avatar" alt="avatar" src="../../images/logo.png"/>
+                    <img className="avatar" alt="avatar" src="../../images/logo.webp"/>
                 </div>
             </section>
         </Fragment>
