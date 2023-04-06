@@ -4,7 +4,7 @@ function Home(){
     return(
         <Fragment>
             <header className="header" data-aos="fade-down" data-aos-duration="1500">
-                <h1>Florescer JF</h1>
+                <h1>Florescer</h1>
                 <p>Somos uma ONG com o propósito de cuidar de vítimas de abusos, baixa autoestima, depressão e ansiedade</p>
                 <div className="icons">
                     <a href="https://www.instagram.com/florescerjf/" target="_blank" rel="noopener noreferrer">

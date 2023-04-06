@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 .header{
+    text-align: center;
+    h1{
+        font-family: 'Ms Madi', cursive;
+        font-size: 2.8em;
+    }
+    p{
+        font-size: 16px;
+        max-width: 400px;
+    }
     .icons{
         @extend .flex-central;
         margin-top: 15px;

@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+.header {
+  text-align: center;
+}
+.header h1 {
+  font-family: "Ms Madi", cursive;
+  font-size: 2.8em;
+}
+.header p {
+  font-size: 16px;
+  max-width: 400px;
+}
 .header .icons {
   margin-top: 15px;
 }
@@ -102,16 +114,17 @@
   --contrast-color: #fff;
 }
 
-.flex-central, .menu, .content-section, .header .icons, .home, .home .border, .help, .themes {
+.flex-central, .content-section, .header .icons, .home, .home .border, .help, .themes {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn, .menu .menu-item, .btn-outline, .donate .btn-work {
-  padding: 12px 24px;
+  padding: 10px 20px;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 20px;
+  font-size: 14px;
   color: var(--contrast-color);
   text-decoration: none;
   margin: 5px;
@@ -141,15 +154,6 @@ body {
   color: var(--contrast-color);
 }
 
-.header {
-  font-size: 21px;
-  text-align: center;
-}
-.header p {
-  font-size: 16px;
-  max-width: 400px;
-}
-
 .content-section {
   margin: 20px;
   height: 75vh;
@@ -157,17 +161,22 @@ body {
 }
 .content-section .content-container {
   background-color: var(--primary-color);
-  border-radius: 60px;
+  border-radius: 40px;
   padding: 20px;
   max-width: 600px;
   min-height: 100%;
 }
 
 .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  margin: 10px;
 }
 .menu .menu-item {
   background-color: var(--primary-color);
+  margin: 5px;
 }
 
 .footer {
@@ -181,21 +190,12 @@ body {
 }
 
 @media (max-width: 760px) {
-  .header {
-    font-size: 18px;
-  }
   .content-section {
     margin: 10px;
     min-height: 60vh;
   }
   .content-section .content-container {
     padding: 10px;
-  }
-  .menu {
-    margin: 5px;
-  }
-  .menu .menu-item {
-    margin: 5px;
   }
   p {
     font-size: 0.9em !important;

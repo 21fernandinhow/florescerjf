@@ -3,7 +3,7 @@ import React from "react";
 function Help(){
     return(
         <section className="help content-container" data-aos="zoom-in" data-aos-duration="1500">
-            <h1>Preciso de ajuda</h1>
+            <h1>Viemos lhe estender a mão</h1>
             <p>A Florescer está aqui para você. Preencha seus dados no link abaixo para se inscrever em nosso 
                 programa de ajuda, ou entre em contato em nossa emergência caso esteja em perigo.</p>
             
