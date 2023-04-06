@@ -1,0 +1,9 @@
+.video-section{
+    @extend .flex-central;
+    flex-direction: column;
+    video{
+        margin-top: 10px;
+        border-radius: 30px;
+        max-height: 70vh;
+    }
+}

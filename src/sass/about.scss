@@ -1,0 +1,10 @@
+.about{
+    @extend .flex-central;
+    flex-direction: column;
+    h1{
+        text-align: center;
+    }
+    p{
+        margin: 10px;
+    }
+}

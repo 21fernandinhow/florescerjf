@@ -5,7 +5,8 @@ function Home(){
         <Fragment>
             <header className="header" data-aos="fade-down" data-aos-duration="1500">
                 <h1>Florescer</h1>
-                <p>Somos uma ONG com o propósito de cuidar de vítimas de abusos, baixa autoestima, depressão e ansiedade</p>
+                <p>Somos uma ONG com o propósito de cuidar de <strong>mulheres</strong> vítimas de abusos, baixa autoestima, 
+                depressão e ansiedade. <a href="https://tribunademinas.com.br/noticias/cidade/19-11-2022/tradicao-resgatada-rua-ganha-as-cores-da-bandeira-do-brasil.html" target="_blank" rel="noopener noreferrer">Leia mais</a></p>
                 <div className="icons">
                     <a href="https://www.instagram.com/florescerjf/" target="_blank" rel="noopener noreferrer">
                         <img src="../../images/instagram.webp" className="icon" alt="instagram"></img>

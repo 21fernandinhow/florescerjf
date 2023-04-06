@@ -10,6 +10,11 @@
   font-size: 16px;
   max-width: 400px;
 }
+.header a {
+  color: var(--contrast-color);
+  font-weight: bold;
+  font-size: 16px;
+}
 .header .icons {
   margin-top: 15px;
 }
@@ -53,6 +58,16 @@
     padding: 7px;
   }
 }
+.about {
+  flex-direction: column;
+}
+.about h1 {
+  text-align: center;
+}
+.about p {
+  margin: 10px;
+}
+
 .donate {
   display: flex;
   align-items: center;
@@ -92,21 +107,13 @@
   margin: 10px;
 }
 
-.themes {
+.video-section {
   flex-direction: column;
 }
-.themes .btn-theme {
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 5px;
-  color: var(--contrast-color);
-  padding: 15px 30px;
-  border-radius: 20px;
-}
-.themes .btn-theme:hover {
-  background-color: var(--contrast-color);
-  color: var(--secondary-color);
-  transition: 0.4s;
+.video-section video {
+  margin-top: 10px;
+  border-radius: 30px;
+  max-height: 70vh;
 }
 
 :root {
@@ -117,7 +124,7 @@
   --contrast-color: #fff;
 }
 
-.flex-central, .content-section, .header .icons, .home, .home .border, .help, .themes {
+.flex-central, .content-section, .header .icons, .home, .home .border, .about, .help, .video-section {
   display: flex;
   justify-content: center;
   align-items: center;
