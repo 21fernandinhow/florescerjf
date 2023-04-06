@@ -38,7 +38,7 @@
   height: 12.5rem;
   width: 12.5rem;
   object-fit: cover;
-  background-color: var(--terciary-color);
+  background-color: var(--primary-color);
 }
 
 @keyframes border {
@@ -70,8 +70,10 @@
 }
 .donate .pix {
   padding: 8px;
-  border: 2px dashed var(--contrast-color);
+  border: 2px dashed var(--highlight-color);
+  color: var(--highlight-color);
 }
+
 .help {
   flex-direction: column;
   text-align: center;
@@ -107,10 +109,10 @@
 }
 
 :root {
-  --bg-color: #FF9292;
-  --primary-color: #FFB4B4;
-  --secondary-color: #FFDCDC;
-  --terciary-color: #FFE8E8;
+  --bg-color: #e18181;
+  --primary-color: #e8afa1;
+  --secondary-color: #eCDAD1;
+  --highlight-color: #e41010;
   --contrast-color: #fff;
 }
 
@@ -120,25 +122,27 @@
   align-items: center;
 }
 
-.btn, .menu .menu-item, .btn-outline, .donate .btn-work {
+.btn, .menu .menu-item, .btn-outline {
   padding: 10px 20px;
   text-align: center;
   border-radius: 20px;
   font-size: 14px;
-  color: var(--contrast-color);
+  color: var(--highlight-color);
+  background-color: var(--primary-color);
+  font-weight: bold;
   text-decoration: none;
   margin: 5px;
 }
-.btn:hover, .menu .menu-item:hover, .btn-outline:hover, .donate .btn-work:hover {
-  font-weight: bold;
+.btn:hover, .menu .menu-item:hover, .btn-outline:hover {
+  background-color: var(--secondary-color);
   transition: 0.4s;
 }
 
-.btn-outline, .donate .btn-work {
-  border: 1px solid var(--contrast-color);
+.btn-outline {
+  border: 1px solid var(--highlight-color);
 }
-.btn-outline:hover, .donate .btn-work:hover {
-  background-color: var(--contrast-color);
+.btn-outline:hover {
+  background-color: var(--highlight-color);
   color: var(--primary-color);
   transition: 0.4s;
 }
@@ -151,6 +155,11 @@
 
 body {
   background-color: var(--bg-color);
+  color: var(--contrast-color);
+}
+
+::selection {
+  background-color: var(--primary-color);
   color: var(--contrast-color);
 }
 
@@ -175,7 +184,6 @@ body {
   margin: 10px;
 }
 .menu .menu-item {
-  background-color: var(--primary-color);
   margin: 5px;
 }
 

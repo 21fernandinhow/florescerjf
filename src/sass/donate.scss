@@ -15,9 +15,7 @@
     }
     .pix{
         padding: 8px;
-        border: 2px dashed var(--contrast-color);
-    }
-    .btn-work{
-        @extend .btn-outline;
+        border: 2px dashed var(--highlight-color);
+        color: var(--highlight-color);
     }
 }

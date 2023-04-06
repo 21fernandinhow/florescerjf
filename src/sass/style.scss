@@ -7,10 +7,10 @@
 //Colors
 :root{
     
-    --bg-color: #FF9292;
-    --primary-color: #FFB4B4;
-    --secondary-color: #FFDCDC;
-    --terciary-color: #FFE8E8;
+    --bg-color: #e18181;
+    --primary-color: #e8afa1; 
+    --secondary-color: #eCDAD1; 
+    --highlight-color: #e41010;
     --contrast-color: #fff;
 }
 
@@ -26,20 +26,22 @@
     text-align: center;
     border-radius: 20px;
     font-size: 14px;
-    color: var(--contrast-color);
+    color: var(--highlight-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
     text-decoration: none;
     margin: 5px;
     &:hover{
-        font-weight: bold;
+        background-color: var(--secondary-color);
         transition: 0.4s;
     }
 }
 
 .btn-outline{
     @extend .btn;
-    border: 1px solid var(--contrast-color);
+    border: 1px solid var(--highlight-color);
     &:hover{
-        background-color: var(--contrast-color);
+        background-color: var(--highlight-color);
         color: var(--primary-color);
         transition: 0.4s;
     }
@@ -52,8 +54,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--bg-color);
+    color: var(--contrast-color);
+}
+
+::selection{
+    background-color: var(--primary-color);
     color: var(--contrast-color);
 }
 
@@ -79,7 +87,6 @@ body{
     margin: 10px;
     .menu-item{
         @extend .btn;
-        background-color: var(--primary-color);
         margin: 5px;
     }
 }

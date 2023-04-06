@@ -16,7 +16,7 @@ function Donate(){
                 <p>Com sua ajuda podemos chegar mais longe! Estamos com as portas sempre abertas para boas pessoas 
                     que queiram contribuir com nossa ONG. Faça sua inscrição agora mesmo!</p>
                 <br/>
-                <a className="btn-work" href="https://docs.google.com/forms/d/e/1FAIpQLSc4Y7NZ6tXTXQHbs8utx4ENO4BYJ8fronO9l5slVgVfhvQ8cQ/viewform" target="_blank" rel="noopener noreferrer">Inscrever-se</a>
+                <a className="btn-outline" href="https://docs.google.com/forms/d/e/1FAIpQLSc4Y7NZ6tXTXQHbs8utx4ENO4BYJ8fronO9l5slVgVfhvQ8cQ/viewform" target="_blank" rel="noopener noreferrer">Inscrever-se</a>
                 <br/>               
             </div>
         </section>
