@@ -16,7 +16,8 @@
         .icon{
             max-width: 25px;
             margin: 4px;
-            opacity: 0.8;
+            opacity: 0.6;
+            filter: invert(100%);
             &:hover{
                 opacity: 1;
             }
