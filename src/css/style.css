@@ -129,18 +129,19 @@
   font-size: 14px;
   color: var(--contrast-color);
   background-color: var(--primary-color);
-  font-weight: bold;
   text-decoration: none;
   margin: 5px;
 }
 .btn:hover, .menu .menu-item:hover, .btn-outline:hover {
   background-color: var(--secondary-color);
   color: var(--highlight-color);
+  font-weight: bold;
   transition: 0.4s;
 }
 
 .btn-outline {
   border: 1px solid var(--highlight-color);
+  color: var(--highlight-color);
 }
 .btn-outline:hover {
   background-color: var(--highlight-color);
