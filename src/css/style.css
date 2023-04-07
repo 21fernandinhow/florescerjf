@@ -126,7 +126,7 @@
   --contrast-color: #fff;
 }
 
-.flex-central, .content-section, .header .icons, .home, .home .border, .about, .help, .video-section {
+.flex-central, .menu, .content-section, .header .icons, .home, .home .border, .about, .help, .video-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,9 +189,6 @@ body {
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   margin: 10px;
 }
